@@ -51,7 +51,7 @@
     // API 요청 함수
     const fetchData = async (updateUI = true) => {
         try {
-            const response = await fetch(`https://eco-web-badge.vercel.app/api/badge?url=${encodeUrl}`);
+            const response = await fetch(`https://eco-web-badge-6iknhha1n-byeongsu-gos-projects.vercel.app/api/badge?url=${encodeUrl}`);
             if (!response.ok) throw new Error('API request failed');
             
             const data = await response.json();
